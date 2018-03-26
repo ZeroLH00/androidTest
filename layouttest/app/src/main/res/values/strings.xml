@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">LayoutTest</string>
+    <string name="bn1">One,One</string>
+    <string name="bn2">One,Two</string>
+    <string name="bn3">One,Three</string>
+    <string name="bn4">One,Four</string>
+    <string name="bn5">Two,One</string>
+    <string name="bn6">Two,Two</string>
+    <string name="bn7">Two,Three</string>
+    <string name="bn8">Two,Four</string>
+    <string name="bn9">Three,One</string>
+    <string name="bn10">Three,Two</string>
+    <string name="bn11">Three,Three</string>
+    <string name="bn12">Three,Four</string>
+    <string name="bn13">Four,One</string>
+    <string name="bn14">Four,Two</string>
+    <string name="bn15">Four,Three</string>
+    <string name="bn16">Four,Four</string>
+
+</resources>

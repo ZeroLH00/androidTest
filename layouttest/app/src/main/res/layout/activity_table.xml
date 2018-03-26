@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TableRow>
+        <TextView
+            android:text="Open"/>
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Save"/>
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="SavaAs"/>
+
+    </TableRow>
+
+
+    <View
+
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#aa000000" />
+    <TableRow>
+        <TextView
+            android:text="Import"/>
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Export"/>
+
+    </TableRow>
+    <View
+
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#aa000000" />
+    <TableRow>
+        <TextView
+            android:text="Quit"/>
+
+    </TableRow>
+
+
+
+
+
+</TableLayout>
