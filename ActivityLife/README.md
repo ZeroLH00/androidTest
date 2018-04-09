@@ -1,0 +1,2 @@
+# androidTest Activity的生命周期
+Activity的生命周期
