@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="In-line preferences"
+        android:key="pref_key_storage_settings">
+        <CheckBoxPreference
+            android:key="preference_check"
+            android:summary="This is a CheckBox"
+            android:title="CheckBoxPreference"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Dialog-based preferences:"
+        android:key="pref_key_storage_settings">
+        <EditTextPreference
+            android:key="preference_edit"
+            android:summary="this is a EditTextPreference"
+            android:title="EditTextPreference"
+            android:defaultValue="false" />
+       <ListPreference
+           android:key="preference_list"
+           android:title="ListPreference"
+           android:summary="this is a ListPreference"
+           android:entries="@array/list_entries"
+           android:entryValues="@array/list_entries_value"
+           android:defaultValue="@array/list_entries_value2"/>
+
+
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Launch preferences"
+        android:key="pref_key_storage_settings">
+
+        <PreferenceScreen
+            android:key="button_voicemail_setting_key"
+            android:title="Screen preferences"
+            android:summary="Show another Screen"
+            android:persistent="false">
+
+            <PreferenceCategory
+                android:title="Screen preferences"
+                android:key="pref_key_storage_settings">
+                <CheckBoxPreference
+                    android:key="preference_check"
+                    android:summary="另一个页面"
+                    android:title="CheckBoxPreference"
+                    android:defaultValue="false" />
+            </PreferenceCategory>
+        </PreferenceScreen>
+
+        <Preference android:title="Intent preferences"
+            android:summary="打开一个网页">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="http://www.baidu.com" />
+        </Preference>
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="preferences attributes:"
+        android:key="pref_key_storage_settings">
+        <CheckBoxPreference
+            android:key="check1"
+            android:summary="This is a ParentCheck"
+            android:title="ParentCheck"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+            android:key="check2"
+            android:summary="This is a ChildCheck"
+            android:title="ChildCheck"
+            android:dependency="check1"
+            android:defaultValue="false" />
+
+
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
