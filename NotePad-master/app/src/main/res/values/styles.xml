@@ -1,0 +1,10 @@
+<resources>
+
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/Theme</item>
+
+    </style>
+
+</resources>

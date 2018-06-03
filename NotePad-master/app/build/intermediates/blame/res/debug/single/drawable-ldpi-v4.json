@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/hiroshi/Documents/AndroidStudioProjects/NotePad-master/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/app_notes.png",
+        "source": "/Users/hiroshi/Documents/AndroidStudioProjects/NotePad-master/app/src/main/res/drawable-ldpi/app_notes.png"
+    },
+    {
+        "merged": "/Users/hiroshi/Documents/AndroidStudioProjects/NotePad-master/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/live_folder_notes.png",
+        "source": "/Users/hiroshi/Documents/AndroidStudioProjects/NotePad-master/app/src/main/res/drawable-ldpi/live_folder_notes.png"
+    }
+]
